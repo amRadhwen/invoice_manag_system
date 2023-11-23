@@ -1,5 +1,5 @@
 <?php
-$l['number'] 						= 'RÉfÉrence';
+$l['number'] 						= 'Référence';
 $l['date'] 							= 'Date de facturation';
 $l['due'] 							= 'Date d\'échéance';
 $l['to'] 							= 'Facturation à';
