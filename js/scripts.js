@@ -2,7 +2,7 @@
 * Simplified PHP Invoice System                                                *
 *                                                                              *
 * Version: 1.1.1	                                                               *
-* Author:  James Brandon                                    				   *
+* Author:  amRadhwen                                    				   *
 *******************************************************************************/
 
 $(document).ready(function() {

@@ -42,6 +42,11 @@
 	<link rel="stylesheet" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.css">
 	<link rel="stylesheet" href="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<style type="text/css">
+		#applogo {
+			width: 200px;
+		}
+	</style>
 
 </head>
 
@@ -54,9 +59,9 @@
      <!--Logo -->
     <a href="" class="logo">
        <!--mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>IN</b>MS</span>
+      <span class="logo-mini"><img src="/images/logo.png" alt="logo.png" /></span>
        <!--logo for regular state and mobile devices -->
-      <span style="text-decoration:none;" class="logo-lg"><b>Invoice</b> System</span>
+      <span style="text-decoration:none;" class="logo-lg"><img id="applogo" src="/images/logo.png" alt="logo.png"/></span>
     </a>
 
     <!-- Header Navbar -->
@@ -74,7 +79,7 @@
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="https://pcrt.crab.org/images/default-user.png" class="user-image" alt="User Image">
+              <img src="./images/me.png" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
               <span class="hidden-xs"><?php echo $_SESSION['login_username'];?></span>
             </a>

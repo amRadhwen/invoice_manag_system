@@ -3,12 +3,13 @@
 *  Invoice Management System                                                *
 *                                                                              *
 * Version: 1.0	                                                               *
-* Developer:  Abhishek Raj                                   				           *
+* Developer:  amRadhwen                                   				           *
 *******************************************************************************/
 
 include('header.php');
 include('functions.php');
 include_once("includes/config.php");
+
 
 ?>
 
